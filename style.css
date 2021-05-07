@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+.body-background {
+    background-image: url('avenger_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+	border-radius: 10px;
+    width: 30%;
+	padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#head_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    word-spacing: 3px;
+    flex-direction: row;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#myCanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+    cursor: crosshair;
+}
+
+span
+{
+	color: black;	
+}
+a
+{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;  
+}
